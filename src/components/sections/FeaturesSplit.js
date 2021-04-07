@@ -83,12 +83,18 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item"
               >
-                <Image
-                  src={require("./../../assets/images/features-split-image-01.png")}
-                  alt="Features split 01"
-                  width={528}
-                  height={396}
-                />
+                <a
+                  href="https://zoom.us"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={require("./../../assets/images/zoom-mati.png")}
+                    alt="Features split 01"
+                    width={528}
+                    height={396}
+                  />
+                </a>
               </div>
             </div>
 
@@ -116,8 +122,8 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-02.png")}
-                  alt="Features split 02"
+                  src={require("./../../assets/images/parque.jpg")}
+                  alt="Parque de mayo"
                   width={528}
                   height={396}
                 />
@@ -146,7 +152,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-03.png")}
+                  src={require("./../../assets/images/cordero.jpg")}
                   alt="Features split 03"
                   width={528}
                   height={396}
