@@ -49,7 +49,10 @@ const Testimonial = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
+
           <div className={tilesClasses}>
+            {/* Testimonios 1,2 y 3 */}
+
             <div
               className="tiles-item reveal-from-right"
               data-reveal-delay="200"
@@ -104,9 +107,91 @@ const Testimonial = ({
                     Juan
                   </span>
                   <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">Juxy</a>
+                  <span className="testimonial-item-link">Juxy</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="tiles-item reveal-from-left"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+                  <p className="text-sm mb-0">
+                    — Amigo Matías: me alegra un montón que hayas cumplido tu
+                    objetivo. Espero que tengas muchos éxitos en tus proyectos,
+                    ya sabes que si necesitas un web dev me mandas un inbox.{" "}
+                    <br /> <br /> Te quiero bro. Felicitaciones y .. <br />{" "}
+                    <span style={{ fontWeight: "bolder", color: "white" }}>
+                      Se vienen cositas pronto{" "}
+                    </span>
+                  </p>
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">
+                    Lucas{" "}
                   </span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">Km21</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Testimonios 4,5 y 6 */}
+
+            <div
+              className="tiles-item reveal-from-right"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+                  <p className="text-sm mb-0">
+                    — Felicidades Mati! <br />
+                    <br /> Amigo, más que merecido después de tantos años de
+                    estudio, y compartir mates, fifas y yugis..ahora no hay
+                    excusa para ponerse entrenar y quedar bien toro jaja
+                    <br />
+                    <br />
+                    <span style={{ fontWeight: "bolder", color: "white" }}>
+                      Te quiero wolf
+                    </span>
+                  </p>
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">
+                    Maurito
+                  </span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">ElSátiro</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+                  <p className="text-sm mb-0">
+                    Después de tanto putear en física 2 al fin lo logramos
+                    amigo, quedan muchos recuerdos con esa materia del orto,
+                    como cuando tuvimos que caer después de la fiesta del cecom
+                    a un labo a las 10 de la matina, cuando tuviste los huevos
+                    de decirle a la michelina en pleno examen que el problema 3
+                    era una cagada, o como cuando le pusimos micho tito en el
+                    proyector y lo leyó. Que vieja del orte. <br />
+                    <br />
+                    <span style={{ fontWeight: "bolder", color: "white" }}>
+                      Gracias por cuidar y hacer tan famosas mis carpetas. Un
+                      abrazo grande
+                    </span>
+                  </p>
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">
+                    Ilan
+                  </span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">Hunter</span>
                 </div>
               </div>
             </div>

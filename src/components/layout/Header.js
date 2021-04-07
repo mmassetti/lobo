@@ -88,7 +88,7 @@ const Header = ({
           )}
         >
           {/* <Logo /> */}
-          {!hideNav && (
+          {/* {!hideNav && (
             <>
               <button
                 ref={hamburger}
@@ -112,14 +112,14 @@ const Header = ({
                     )}
                   >
                     <li>
-                      {/* <Link to="#0" onClick={closeMenu}>
+                      <Link to="#0" onClick={closeMenu}>
                         Documentation
-                      </Link> */}
+                      </Link>
                     </li>
                   </ul>
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right">
-                      {/* <li>
+                      <li>
                         <Link
                           to="#0"
                           className="button button-primary button-wide-mobile button-sm"
@@ -127,13 +127,13 @@ const Header = ({
                         >
                           Sign up
                         </Link>
-                      </li> */}
+                      </li>
                     </ul>
                   )}
                 </div>
               </nav>
             </>
-          )}
+          )} */}
         </div>
       </div>
     </header>
