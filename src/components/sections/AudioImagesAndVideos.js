@@ -64,7 +64,7 @@ const AudioImagesAndVideos = ({
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
             <div className={splitClasses} style={{ alignContent: "center" }}>
-              {/* <AudioPlayer /> */}
+              <AudioPlayer />
             </div>
           </div>
         </div>
