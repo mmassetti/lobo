@@ -33,7 +33,7 @@ export default function Timer() {
           </defs>
           <text fill="url(#rainbow)">
             <tspan fontSize="25" x="0" y="30">
-              {days}:{hours}:{minutes}:{seconds}
+              {hours}:{minutes}:{seconds}
             </tspan>
           </text>
         </svg>
