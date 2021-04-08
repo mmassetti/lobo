@@ -2,12 +2,11 @@ import React from "react";
 import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
-import Image from "../elements/Image";
 import AudioPlayer from "../AudioPlayer";
 import ImagesGallery from "../ImagesGallery";
-import ReactTwitchEmbedVideo from "react-twitch-embed-video";
 import TwitchVideos from "../TwitchVideos";
 import Center from "react-center";
+import { BrowserView, MobileView } from "react-device-detect";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -63,6 +62,21 @@ const AudioImagesAndVideos = ({
       <section {...props} className={outerClasses}>
         <div className="container">
           <div className={innerClasses}>
+            <MobileView>
+              <p
+                style={{
+                  paddingBottom: "2rem",
+                  color: "#F7F256",
+                  textAlign: "center",
+                }}
+              >
+                Esta web tiene pocas horas de desarrollo. Por ahí se ve algo mal
+                desde un celular. En PC debería verse bien{" "}
+                <span role="img" aria-label="carita">
+                  🙄
+                </span>
+              </p>
+            </MobileView>
             <SectionHeader data={sectionHeader} className="center-content" />
             <div className={splitClasses} style={{ alignContent: "center" }}>
               <AudioPlayer />
@@ -74,7 +88,7 @@ const AudioImagesAndVideos = ({
       <ImagesGallery />
 
       <Center>
-        <div style={{ marginTop: "4rem" }}>
+        <div style={{ marginTop: "4rem", marginBottom: "4rem" }}>
           <img
             src="https://res.cloudinary.com/sebanoe/image/upload/v1617901806/MatiRios/terecibis_dyjrph.png"
             alt="lobo"
