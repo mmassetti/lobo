@@ -2,7 +2,6 @@ import React from "react";
 import SpotifyPlayer from "react-spotify-web-playback";
 
 export default function AudioPlayer() {
-  console.log("entorno: ", process.env.REACT_APP_SPOTIFY_TOKEN);
   return (
     <SpotifyPlayer
       token={process.env.REACT_APP_SPOTIFY_TOKEN}

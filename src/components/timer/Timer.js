@@ -46,10 +46,14 @@ export default function Timer() {
 
   return (
     <>
-      <Countdown
-        date={new Date("Fri Apr 09 2021 17:00:00 GMT-0300")}
-        renderer={renderer}
-      />
+      {process.env.REACT_APP_LOBO_INGENIERO ? (
+        <Countdown
+          date={new Date("Fri Apr 09 2021 17:00:00 GMT-0300")}
+          renderer={renderer}
+        />
+      ) : (
+        <h2>Vista ya recibido</h2>
+      )}
     </>
   );
 }

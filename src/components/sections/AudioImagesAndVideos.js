@@ -7,6 +7,7 @@ import AudioPlayer from "../AudioPlayer";
 import ImagesGallery from "../ImagesGallery";
 import ReactTwitchEmbedVideo from "react-twitch-embed-video";
 import TwitchVideos from "../TwitchVideos";
+import Center from "react-center";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -71,6 +72,15 @@ const AudioImagesAndVideos = ({
       </section>
 
       <ImagesGallery />
+
+      <Center>
+        <div style={{ marginTop: "4rem" }}>
+          <img
+            src="https://res.cloudinary.com/sebanoe/image/upload/v1617901806/MatiRios/terecibis_dyjrph.png"
+            alt="lobo"
+          ></img>
+        </div>
+      </Center>
 
       <TwitchVideos />
     </>

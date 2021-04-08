@@ -58,7 +58,7 @@ const Testimonial = ({
       <div className="container">
         <div className={innerClasses}>
           {/* Cambiar esto entre false y true para mostrar o esconder */}
-          {false ? (
+          {process.env.REACT_APP_LOBO_INGENIERO ? (
             <>
               <BlurHeader data={blurHeader} className="center-content " />
               <div>
