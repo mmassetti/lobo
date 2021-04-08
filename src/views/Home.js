@@ -21,7 +21,6 @@ const Home = () => {
       />
       <Testimonial topDivider />
       <AudioImagesAndVideos />
-      {/* <AudioPlayer /> */}
       <Cta split />
     </>
   );

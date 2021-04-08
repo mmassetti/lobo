@@ -45,7 +45,7 @@ const Testimonial = ({
   const blurHeader = {
     title: "Contenido bloqueado",
     paragraph:
-      "¡Esta sección se va a desbloquear cuando termine la presentación por Zoom!",
+      "¡Esta sección se va a desbloquear cuando termine la presentación de Google Meet!",
   };
 
   const sectionHeader = {
@@ -440,6 +440,71 @@ const Testimonial = ({
                       <span className="testimonial-item-link">
                         Soldano De 8
                       </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Testimonios 13,14,15 */}
+                <div
+                  className="tiles-item reveal-from-right"
+                  data-reveal-delay="200"
+                >
+                  <div className="tiles-item-inner">
+                    <div className="testimonial-item-content">
+                      <p className="text-sm mb-0">
+                        — Felicitaciones Arnold Schwarzenegger por este gran
+                        logro y te deseo el mejor de los éxitos en esta nueva
+                        etapa en busca de los verdolagas. <br /> <br />
+                        <span style={{ fontWeight: "bolder", color: "white" }}>
+                          {" "}
+                          Espero que en la noche te rompas tomando VENENAAA con
+                          los pibes
+                        </span>
+                      </p>
+                    </div>
+                    <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                      <span className="testimonial-item-name text-color-high"></span>
+                      <span className="text-color-low">Chipi </span>
+                      <span className="testimonial-item-link"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="tiles-item reveal-from-bottom">
+                  <div className="tiles-item-inner">
+                    <div className="testimonial-item-content">
+                      <p className="text-sm mb-0">
+                        —
+                        <span
+                          style={{ fontWeight: "bolder", color: "white" }}
+                        ></span>
+                      </p>
+                    </div>
+                    <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                      <span className="testimonial-item-name text-color-high"></span>
+                      <span className="text-color-low"> / </span>
+                      <span className="testimonial-item-link"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  className="tiles-item reveal-from-left"
+                  data-reveal-delay="200"
+                >
+                  <div className="tiles-item-inner">
+                    <div className="testimonial-item-content">
+                      <p className="text-sm mb-0">
+                        —
+                        <span
+                          style={{ fontWeight: "bolder", color: "white" }}
+                        ></span>{" "}
+                      </p>
+                    </div>
+                    <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                      <span className="testimonial-item-name text-color-high"></span>
+                      <span className="text-color-low"> / </span>
+                      <span className="testimonial-item-link"></span>
                     </div>
                   </div>
                 </div>

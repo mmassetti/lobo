@@ -5,6 +5,8 @@ import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
 import AudioPlayer from "../AudioPlayer";
 import ImagesGallery from "../ImagesGallery";
+import ReactTwitchEmbedVideo from "react-twitch-embed-video";
+import TwitchVideos from "../TwitchVideos";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -55,6 +57,12 @@ const AudioImagesAndVideos = ({
     paragraph: "Poné play y mirá estas locuras",
   };
 
+  const twitchHeader = {
+    title: "El que juega tranquilo es el lobo",
+    paragraph:
+      "CS GO tilt moments (Te movés de video con las flechitas negras)",
+  };
+
   return (
     <>
       <section {...props} className={outerClasses}>
@@ -62,13 +70,24 @@ const AudioImagesAndVideos = ({
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
             <div className={splitClasses} style={{ alignContent: "center" }}>
-              <AudioPlayer />
+              {/* <AudioPlayer /> */}
             </div>
           </div>
         </div>
       </section>
 
       <ImagesGallery />
+
+      <section {...props} className={outerClasses}>
+        <div className="container">
+          <div className={innerClasses}>
+            <SectionHeader data={twitchHeader} className="center-content" />
+            <div className={splitClasses} style={{ alignContent: "center" }}>
+              <TwitchVideos />
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

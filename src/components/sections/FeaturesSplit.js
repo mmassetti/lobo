@@ -51,8 +51,6 @@ const FeaturesSplit = ({
   const sectionHeader = {
     title: "¿Qué tenés que saber?",
     paragraph: "Data importante",
-    // title: "No te pierdas la presentación del proyecto final",
-    // paragraph: "La reunión va a ser por zoom",
   };
 
   return (
