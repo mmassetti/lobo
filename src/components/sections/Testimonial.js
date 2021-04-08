@@ -58,7 +58,7 @@ const Testimonial = ({
       <div className="container">
         <div className={innerClasses}>
           {/* {true ? ( */}
-          {false ? (
+          {true ? (
             <>
               <BlurHeader data={blurHeader} className="center-content " />
               <div>
@@ -68,7 +68,7 @@ const Testimonial = ({
                   enableStyles
                   style={{ height: "800px", position: "relative" }}
                 >
-                  The content.
+                  Bloqueado
                 </Blur>
               </div>
             </>
@@ -459,13 +459,19 @@ const Testimonial = ({
                           {" "}
                           Espero que en la noche te rompas tomando VENENAAA con
                           los pibes
+                        </span>{" "}
+                        <br /> <br />
+                        <span
+                          style={{ fontWeight: "bolder", color: "#F7F256" }}
+                        >
+                          Update: Nos cagó el covid. Ya habrá oportunidad!
                         </span>
                       </p>
                     </div>
                     <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                      <span className="testimonial-item-name text-color-high"></span>
-                      <span className="text-color-low">Chipi </span>
-                      <span className="testimonial-item-link"></span>
+                      <span className="testimonial-item-name text-color-high">
+                        Chipi{" "}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -474,16 +480,22 @@ const Testimonial = ({
                   <div className="tiles-item-inner">
                     <div className="testimonial-item-content">
                       <p className="text-sm mb-0">
-                        —
-                        <span
-                          style={{ fontWeight: "bolder", color: "white" }}
-                        ></span>
+                        — Parabéns lobo por esta conquista! <br /> <br />
+                        Felicitaciones amigo por este logroooo. Sos un crack y
+                        te va a ir genial en lo que te propongas. <br /> <br />{" "}
+                        Felicitaciones ingeniero! <br /> <br /> Te quiero y...{" "}
+                        <br /> <br />
+                        <span style={{ fontWeight: "bolder", color: "white" }}>
+                          ¡VALEW GALERA! ¿Yo locurié?
+                        </span>
                       </p>
                     </div>
                     <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                      <span className="testimonial-item-name text-color-high"></span>
+                      <span className="testimonial-item-name text-color-high">
+                        Masa
+                      </span>
                       <span className="text-color-low"> / </span>
-                      <span className="testimonial-item-link"></span>
+                      <span className="testimonial-item-link">Cleffa</span>
                     </div>
                   </div>
                 </div>
@@ -495,16 +507,25 @@ const Testimonial = ({
                   <div className="tiles-item-inner">
                     <div className="testimonial-item-content">
                       <p className="text-sm mb-0">
-                        —
-                        <span
-                          style={{ fontWeight: "bolder", color: "white" }}
-                        ></span>{" "}
+                        — Hermano! Al fin! <br /> <br />
+                        Después de tanto esfuerzo vas a poder decir que SOS
+                        INGENIERO! Vos sabes que te deseo lo mejor y espero que
+                        podamos juntar mas historias LOCAS para contar. <br />{" "}
+                        <br />
+                        OMAAAAAR, ALGO ANDA MAAAAAL
+                        <br /> <br />
+                        <span style={{ fontWeight: "bolder", color: "white" }}>
+                          {" "}
+                          Te quiero mucho mi brodi ❤️
+                        </span>{" "}
                       </p>
                     </div>
                     <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                      <span className="testimonial-item-name text-color-high"></span>
+                      <span className="testimonial-item-name text-color-high">
+                        Salva
+                      </span>
                       <span className="text-color-low"> / </span>
-                      <span className="testimonial-item-link"></span>
+                      <span className="testimonial-item-link">SC</span>
                     </div>
                   </div>
                 </div>

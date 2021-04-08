@@ -338,6 +338,132 @@ const data = [
     image:
       "https://res.cloudinary.com/sebanoe/image/upload/v1617856274/MatiRios/56_kwxcad.jpg",
   },
+  {
+    id: 57,
+    name: "57",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911167/MatiRios/57_h3zdcu.jpg",
+  },
+  {
+    id: 58,
+    name: "58",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911167/MatiRios/58_giwdz5.jpg",
+  },
+  {
+    id: 59,
+    name: "59",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911168/MatiRios/59_i7jiej.jpg",
+  },
+  {
+    id: 60,
+    name: "60",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911167/MatiRios/60_v1j70y.jpg",
+  },
+  {
+    id: 61,
+    name: "61",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911167/MatiRios/61_bmtxs4.jpg",
+  },
+  {
+    id: 62,
+    name: "62",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911167/MatiRios/62_tbribp.jpg",
+  },
+  {
+    id: 63,
+    name: "63",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911168/MatiRios/63_htswtw.jpg",
+  },
+  {
+    id: 64,
+    name: "64",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911168/MatiRios/64_wdgrp3.jpg",
+  },
+  {
+    id: 65,
+    name: "65",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911170/MatiRios/65_pyvzoa.jpg",
+  },
+  {
+    id: 66,
+    name: "66",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911165/MatiRios/66_ey5gh4.jpg",
+  },
+  {
+    id: 67,
+    name: "67",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911165/MatiRios/67_wvyslu.jpg",
+  },
+  {
+    id: 68,
+    name: "68",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911165/MatiRios/68_pvoxqr.jpg",
+  },
+  {
+    id: 69,
+    name: "69",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911166/MatiRios/69_auwjy3.jpg",
+  },
+  {
+    id: 70,
+    name: "70",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911165/MatiRios/70_iiynil.jpg",
+  },
+  {
+    id: 71,
+    name: "71",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911165/MatiRios/71_vfajhb.jpg",
+  },
+  {
+    id: 72,
+    name: "72",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911166/MatiRios/72_bodhvy.jpg",
+  },
+  {
+    id: 73,
+    name: "73",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911166/MatiRios/73_kbhq3m.jpg",
+  },
+  {
+    id: 74,
+    name: "74",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911166/MatiRios/74_wrnj8d.jpg",
+  },
+  {
+    id: 75,
+    name: "75",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911166/MatiRios/75_axlznl.jpg",
+  },
+  {
+    id: 76,
+    name: "76",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911167/MatiRios/76_ffx89g.jpg",
+  },
+  {
+    id: 77,
+    name: "77",
+    image:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617911166/MatiRios/77_qlynlu.jpg",
+  },
 ];
 
 function ImagesGallery() {

@@ -136,8 +136,10 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Viernes night
                 </div>
-                <h3 className="mt-0 mb-12">Elegí tu propia aventura</h3>
+                <h3 className="mt-0 mb-12">No me la container</h3>
                 <p className="m-0">
+                  Cambios de último momento por un bicho que anda dando vueltas.{" "}
+                  <br /> <br />
                   Salí y rompete, quedate mirando Netflix con tu novio/a,
                   disparale a brasileros, manejate
                 </p>
@@ -150,7 +152,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/cordero.jpg")}
+                  src={require("./../../assets/images/covid.png")}
                   alt="Features split 03"
                   width={528}
                   height={396}
