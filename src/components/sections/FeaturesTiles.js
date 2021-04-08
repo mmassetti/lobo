@@ -43,7 +43,7 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: "Todo su esfuerzo da su fruto",
+    title: "El esfuerzo da sus frutos",
     paragraph: "Haber llegado hasta acá no es casualidad",
   };
 

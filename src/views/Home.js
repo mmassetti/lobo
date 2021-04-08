@@ -5,6 +5,8 @@ import FeaturesTiles from "../components/sections/FeaturesTiles";
 import FeaturesSplit from "../components/sections/FeaturesSplit";
 import Testimonial from "../components/sections/Testimonial";
 import Cta from "../components/sections/Cta";
+import AudioPlayer from "../components/AudioPlayer";
+import AudioImagesAndVideos from "../components/sections/AudioImagesAndVideos";
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
         className="illustration-section-02"
       />
       <Testimonial topDivider />
+      <AudioImagesAndVideos />
+      {/* <AudioPlayer /> */}
       <Cta split />
     </>
   );

@@ -84,13 +84,13 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <a
-                  href="https://zoom.us"
+                  href="https://meet.google.com/fxf-kncg-aqx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src={require("./../../assets/images/zoom-mati.png")}
-                    alt="Features split 01"
+                    src={require("./../../assets/images/google-meet.png")}
+                    alt="Reunion Google Meet"
                     width={528}
                     height={396}
                   />

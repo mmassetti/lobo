@@ -13,6 +13,7 @@
     "react-ga": "^2.7.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
+    "react-spotify-web-playback": "^0.8.1",
     "react-twitch-embed-video": "^3.0.0"
   },
   "repository": {

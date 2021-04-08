@@ -57,7 +57,8 @@ const Testimonial = ({
     <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
-          {true ? (
+          {/* {true ? ( */}
+          {false ? (
             <>
               <BlurHeader data={blurHeader} className="center-content " />
               <div>
@@ -386,16 +387,26 @@ const Testimonial = ({
                   <div className="tiles-item-inner">
                     <div className="testimonial-item-content">
                       <p className="text-sm mb-0">
-                        —
-                        <span
-                          style={{ fontWeight: "bolder", color: "white" }}
-                        ></span>
+                        — Amigo Felícitaciones !!! <br /> <br /> Vos más que
+                        nadie te mereces esto y mucho más. Todo el esfuerzo
+                        valió la pena !!! Sabes que te amo con todo mi corazón y
+                        a pesar de que a veces colguemos siempre estamos el uno
+                        para el otro... y espero que sea así por Muchos años
+                        más. Se vienen muchas cosas nuevas y mejores!! <br />{" "}
+                        <br />
+                        Felicitaciones de nuevo, sos ingeniero en computación
+                        !!! <br />
+                        <br />
+                        <span style={{ fontWeight: "bolder", color: "white" }}>
+                          {" "}
+                          Te amo
+                        </span>
                       </p>
                     </div>
                     <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                      <span className="testimonial-item-name text-color-high"></span>
-                      <span className="text-color-low"> / </span>
-                      <span className="testimonial-item-link"></span>
+                      <span className="testimonial-item-name text-color-high">
+                        Yami
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -407,16 +418,28 @@ const Testimonial = ({
                   <div className="tiles-item-inner">
                     <div className="testimonial-item-content">
                       <p className="text-sm mb-0">
-                        —
-                        <span
-                          style={{ fontWeight: "bolder", color: "white" }}
-                        ></span>{" "}
+                        — Felicitaciones lobito ingeniero, merecido por esas
+                        tardes de chipa y fifa, bueno espero que ahora te
+                        instales en una casa y abandones las mudanzas, abrazo
+                        amigo pd: lo tuyo no es el cs.{" "}
+                        <span role="img" aria-label="carita1">
+                          {" "}
+                          🤪
+                        </span>
+                        <br /> <br />
+                        <span style={{ fontWeight: "bolder", color: "white" }}>
+                          Te quieroo
+                        </span>{" "}
                       </p>
                     </div>
                     <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                      <span className="testimonial-item-name text-color-high"></span>
+                      <span className="testimonial-item-name text-color-high">
+                        Santi
+                      </span>
                       <span className="text-color-low"> / </span>
-                      <span className="testimonial-item-link"></span>
+                      <span className="testimonial-item-link">
+                        Soldano De 8
+                      </span>
                     </div>
                   </div>
                 </div>
