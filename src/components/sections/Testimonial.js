@@ -57,8 +57,8 @@ const Testimonial = ({
     <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
-          {/* {true ? ( */}
-          {true ? (
+          {/* Cambiar esto entre false y true para mostrar o esconder */}
+          {false ? (
             <>
               <BlurHeader data={blurHeader} className="center-content " />
               <div>
@@ -528,6 +528,33 @@ const Testimonial = ({
                       <span className="testimonial-item-link">SC</span>
                     </div>
                   </div>
+                </div>
+
+                {/* Testimonio 16               */}
+                <div
+                  className="tiles-item reveal-from-right"
+                  data-reveal-delay="200"
+                >
+                  <div className="tiles-item-inner">
+                    <div className="testimonial-item-content">
+                      <p className="text-sm mb-0">
+                        — QUERIDO BLODEL QUE LA UNI ME DIO. <br /> <br />{" "}
+                        FELICITACIONES POR ESTE FINAL DE ETAPA, Y QUE SEA EL
+                        COMIENZO DE OTRA CON MÁS RISAS AÚN.
+                        <br /> <br />
+                        <span style={{ fontWeight: "bolder", color: "white" }}>
+                          TE QUIERO{" "}
+                        </span>
+                      </p>
+                    </div>
+                    <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                      <span className="testimonial-item-name text-color-high">
+                        Facu
+                      </span>
+                      <span className="text-color-low"> / </span>
+                      <span className="testimonial-item-link">Fam</span>
+                    </div>
+                  </div>{" "}
                 </div>
               </div>
             </>
