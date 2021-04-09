@@ -46,6 +46,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
               >
                 Matias Massetti
               </a>
+              <p>¡Gracias Juxy por los clips y a la banda por pasar fotos!</p>
             </div>
           </div>
         </div>
