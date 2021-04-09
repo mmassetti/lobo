@@ -49,16 +49,38 @@ const Hero = ({
             <h1
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
+              style={{
+                textDecorationLine: "line-through",
+                textDecorationStyle: "solid",
+              }}
             >
               ¡Se recibe
               <span className="text-color-primary"> Mati Rios </span>!
+            </h1>
+            <h1
+              className="mt-0 mb-16 reveal-from-bottom"
+              data-reveal-delay="200"
+              style={{ color: "#F7F256" }}
+            >
+              ¡Se recibió
+              <span className="text-color-primary"> Mati Rios </span>
+              <span style={{ color: "#F7F256" }}>!</span>
             </h1>
             <div className="container-xs">
               <p
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Este viernes 9 de abril Argentina tendrá un nuevo{" "}
+                Este viernes 9 de abril Argentina{" "}
+                <span
+                  style={{
+                    textDecorationLine: "line-through",
+                    textDecorationStyle: "solid",
+                  }}
+                >
+                  tendrá
+                </span>{" "}
+                <span style={{ color: "#F7F256" }}>tiene </span>un nuevo{" "}
                 <span style={{ fontWeight: "bolder" }}>
                   Ingeniero en Computación
                 </span>{" "}
@@ -67,8 +89,6 @@ const Hero = ({
 
               <img src={lobo} alt="logo" style={{ height: "16rem" }} />
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                {/* //Mostrar timer */}
-
                 <Timer />
               </div>
             </div>

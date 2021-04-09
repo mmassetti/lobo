@@ -21,6 +21,7 @@
     "react-scripts": "^3.4.1",
     "react-spotify-web-playback": "^0.8.1",
     "react-twitch-embed-video": "^3.0.0",
+    "react-typing-effect": "^2.0.5",
     "redux": "^4.0.5"
   },
   "repository": {

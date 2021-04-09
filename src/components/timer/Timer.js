@@ -1,6 +1,7 @@
 import React from "react";
 import Countdown from "react-countdown";
 import "./timer.scss";
+import ReactTypingEffect from "react-typing-effect";
 
 export default function Timer() {
   // Random component
@@ -46,14 +47,29 @@ export default function Timer() {
 
   return (
     <>
-      {process.env.REACT_APP_LOBO_INGENIERO ? (
-        <Countdown
-          date={new Date("Fri Apr 09 2021 17:00:00 GMT-0300")}
-          renderer={renderer}
-        />
-      ) : (
-        <h2>Vista ya recibido</h2>
-      )}
+      <ReactTypingEffect
+        text={["Felicitaciones", "Ingeniero Rios!"]}
+        cursorRenderer={(cursor) => <h1>{cursor}</h1>}
+        displayTextRenderer={(text, i) => {
+          return (
+            <h1>
+              {text.split("").map((char, i) => {
+                const key = `${i}`;
+                return (
+                  <span
+                    key={key}
+                    style={
+                      i % 2 === 0 ? { color: "#F7F256" } : { color: "#5658DD" }
+                    }
+                  >
+                    {char}
+                  </span>
+                );
+              })}
+            </h1>
+          );
+        }}
+      />
     </>
   );
 }

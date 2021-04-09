@@ -699,6 +699,15 @@ const IMAGES = [
     thumbnailWidth: 250,
     thumbnailHeight: 174,
   },
+  {
+    id: 78,
+    src:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617995773/MatiRios/78_zaqd4z.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/sebanoe/image/upload/v1617995773/MatiRios/78_zaqd4z.jpg",
+    thumbnailWidth: 250,
+    thumbnailHeight: 174,
+  },
 ];
 
 function ImagesGallery() {
