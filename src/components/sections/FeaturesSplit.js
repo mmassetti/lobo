@@ -65,7 +65,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Metete al Zoom
+                  Metete a la reunión
                 </div>
                 <h3 className="mt-0 mb-12">Presentación del proyecto final</h3>
                 <p className="m-0">
@@ -108,8 +108,8 @@ const FeaturesSplit = ({
                   PARQUE DE MAYO Y VUELTITA TRIUNFAL
                 </h3>
                 <p className="m-0">
-                  Después del Zoom nos vamos para el parque a depositar en el
-                  lobo todas las frustaciones de la pandemia
+                  Después del Google Meet nos vamos para el parque a depositar
+                  en el lobo todas las frustaciones de la pandemia
                 </p>
               </div>
               <div
